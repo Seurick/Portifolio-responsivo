@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* Custom Styles */
+
+body {
+    font-family: "Montserrat", sans-serif;
+   
+ 
+}
+
+header {
+    background:rgb(49, 10, 103) ;
+    box-shadow: 0 4px 8px rgb(12, 12, 12); /* Sombra */
+   
+     
+}
+
+h2 {
+    color: white;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.carousel-item img {
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    object-fit: cover;
+}
+
+.navbar{
+    
+    background: linear-gradient(135deg, #373636, #000000);
+    height: 275px;
+    width: 100%;   
+}
+
+
+
+.custom{
+    font-size: 22px;
+    color: white;   
+    margin: 10px;
+    padding-right: 2rem;
+    font-weight: 600;
+}
+
+.custom:hover{    
+    color: #b47e00;
+    border-bottom: none;
+    text-decoration: none;
+    transition: 0.9s;
+}
+
+.divisor{
+    color: rgb(83, 83, 235);
+    font-weight: bold;
+    margin-right: 30px;
+    font-size: 20px;  
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(347deg) brightness(92%) contrast(91%);
+}
+
+
+.container h2{
+    color: white;
+}
+
+#about{
+    background-color: #000000;
+}
+
+#about h2, p {
+    color: white;   
+}
+
+
+#about p{
+    font-size: 20px;
+    letter-spacing: 2px;
+   
+}
+
+
+
+#projects{
+    background-color: #000000;  
+}
+
+
+
+.divisao{
+    width: 100%;
+    height: 85px;
+    background: linear-gradient(135deg, #373636, #000000);
+}
+
+
+.divisao-2{
+    width: 100%;
+    height: 85px;
+    margin-top: 160px;
+    background: linear-gradient(135deg, #373636, #000000);
+
+}
+
+#contact{
+    background-color: #000000;
+    color: white;
+}
+
+.custom-header-2{
+    background: black;    
+    height: 500px;    
+}
+
+
+.icon-link {
+    display: inline-block;
+    color: white; /* Cor do ícone */   
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    text-decoration: none; /* Remove sublinhado */   
+    box-shadow: 0 4px 8px rgb(235, 235, 228); /* Sombra */     
+}
+
+
+.icon-link i {
+    font-size: 50px; /* Tamanho do ícone */
+}
+
+.tecnologias-custom{
+    margin-top: 50px;
+}
+
+.col-lg-6 p {
+    width: 100%;   
+    color: #90bae1;
+    
+}
+
+.img-fluid{
+    border-radius: 50px;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 8px rgb(235, 235, 228); /* Sombra */     
+}
+  
+
+
+
+.img-fluid:hover{
+    transform: scale(1.1);
+
+}
+.typing-container {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 24px;
+    white-space: pre-line; /* Preserva as quebras de linha no texto */
+}
+
+.typing {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+}
+
+.whatsapp-box {
+   
+    position: fixed;
+    bottom: -100px; /* Initially hidden */
+    right: 20px;
+    width: 60px;
+    height: 60px;   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: bottom 0.5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp-box img {
+    width: 100px;
+    height: 100px;    
+    
+}
+
+.show {
+    bottom: 20px; /* Position when visible */
+}
+
